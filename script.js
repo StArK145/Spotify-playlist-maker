@@ -1,5 +1,5 @@
 const CLIENT_ID = "a6196a760a754ef896f357c0cbcba788";
-const REDIRECT_URI = "https://stark145.github.io/Spotify-playlist-maker/";
+const REDIRECT_URI = "https://stark145.github.io/Spotify-playlist-maker/index.html";
 const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
 const SCOPES = [
     "playlist-modify-private",
