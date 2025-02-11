@@ -50,8 +50,11 @@ const logout = () => {
     localStorage.removeItem("playlist_id");
     loginBtn.style.display = "block";
     profileContainer.style.display = "none";
-    window.location.reload();
+    
+    // Redirect to the correct page instead of reloading
+    window.location.href = `https://stark145.github.io/Spotify-playlist-maker/`; // Use the actual homepage URL
 };
+
 
 // Update Profile UI
 const updateProfileUI = async (token) => {
