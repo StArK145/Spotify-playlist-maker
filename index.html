@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Playlist Maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Spotify Playlist Maker</h1>
+            <button id="login-btn">Login with Spotify</button>
+        </div>
+        
+        <section class="search-section">
+            <h2>Search Songs</h2>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search for a song or artist">
+                <button id="search-btn">Search</button>
+            </div>
+            <ul id="results"></ul>
+        </section>
+
+        <section class="playlist-section">
+            <h2>Your Playlist</h2>
+            <input type="text" id="playlist-name" placeholder="Playlist Name">
+            <ul id="selected-songs"></ul>
+            <button id="create-playlist-btn">Create Playlist</button>
+            <button id="add-tracks-btn">Add to Playlist</button>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
